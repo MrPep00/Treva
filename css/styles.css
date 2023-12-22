@@ -66,6 +66,7 @@ button {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center top 444px;
+  margin-bottom: 177px;
 }
 
 .headline-title {
@@ -106,4 +107,40 @@ button {
 .btn-outlined {
   background: transparent;
   color: #4a4edd;
+}
+
+.hire-section {
+  justify-content: center;
+  text-align: center;
+}
+
+.h2 {
+  font-size: 40px;
+  margin-bottom: 71px;
+  text-transform: capitalize;
+}
+
+.hire-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 127px;
+}
+
+.hire-btn {
+  font-size: 22px;
+  width: 276px;
+  background: transparent;
+  border: none;
+  align-items: center;
+  padding-bottom: 43px;
+  border-bottom: solid 3px lightgray;
+}
+
+.hire-btn_active {
+  border-bottom: solid 3px #7796fe;
+  color: #7796fe;
+}
+
+.hire-btn_active .img {
+  background: #7796fe;
 }
