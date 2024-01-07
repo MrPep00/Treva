@@ -13,7 +13,7 @@ ul {
   list-style: none;
 }
 
-.container {
+.wrapper {
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -290,12 +290,12 @@ ul {
 .work-desc__left {
   background-image: url(../img/group-163@3x.png);
   background-size: 697px 621px;
-  padding: 51px 0 254px 120px;
-  /* margin-bottom: 91px; */
+  padding: 25px 0 155px 83px;
+  margin-bottom: 195px;
 }
 
 .work-desc__left .content-holder {
-  /* padding: 49px 132px 56px 98px; */
+  padding: 99px 154px 80px 79px;
   background: #8937dc;
 }
 
@@ -303,11 +303,63 @@ ul {
   background-image: url(../img/group-247@3x.png);
   background-size: 593px 806px;
 
-  /* padding: 105px 92px 149px 0; */
-  /* margin-bottom: 106px; */
+  padding: 79px 92px 170px 0;
+  margin-bottom: 249px;
 }
 
 .work-desc__right .content-holder {
-  /* padding: 153px 111px 87px 122px; */
+  padding: 148px 81px 147px 132px;
   background: #7cca84;
+}
+
+.subscribe-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.subscribe-heading {
+  color: #2f2d2d;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 27px;
+  text-transform: capitalize;
+}
+
+.subscribe-text {
+  color: #2f2d2d;
+  font-size: 26px;
+  line-height: 1.54;
+  margin: 0 auto 68px;
+  max-width: 750px;
+}
+
+.subscribe-slider {
+  margin-bottom: 182px;
+  width: 1076px;
+  display: flex;
+  flex-direction: row-reverse;
+  background: #d8d8d8;
+  border-radius: 8px;
+}
+
+.subscribe-btn {
+  width: 283px;
+  height: 95px;
+  color: #ffffff;
+  background: #130242;
+  border-radius: 8px;
+  border-color: #130242;
+  text-transform: capitalize;
+  font-size: 27px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.subscribe-arrow {
+  width: 35px;
+  margin-left: 25px;
 }
