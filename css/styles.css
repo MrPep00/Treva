@@ -198,7 +198,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  border-radius: 21px;
+
   width: 709px;
 }
 
@@ -219,6 +219,7 @@ ul {
   width: 752px;
   padding: 49px 132px 56px 98px;
   background: #7796fe;
+  border-radius: 2% 98% 29% 71% / 96% 3% 97% 4%;
 }
 
 .desc__right {
@@ -239,6 +240,7 @@ ul {
 .hire-desc__right .content-holder {
   padding: 153px 111px 87px 122px;
   background: #ff865b;
+  border-radius: 97% 3% 98% 2% / 53% 97% 3% 47%;
 }
 
 .work-section {
@@ -297,6 +299,7 @@ ul {
 .work-desc__left .content-holder {
   padding: 99px 154px 80px 79px;
   background: #8937dc;
+  border-radius: 11% 89% 71% 29% / 47% 33% 67% 53%;
 }
 
 .work-desc__right {
@@ -310,6 +313,7 @@ ul {
 .work-desc__right .content-holder {
   padding: 148px 81px 147px 132px;
   background: #7cca84;
+  border-radius: 92% 8% 30% 70% / 42% 21% 79% 58%;
 }
 
 .subscribe-section {
@@ -362,4 +366,45 @@ ul {
 .subscribe-arrow {
   width: 35px;
   margin-left: 25px;
+}
+
+.footer-list {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-right: 240px;
+  padding-top: 101px;
+  border-top: solid 1px #bcd0e5;
+  padding-bottom: 100px;
+}
+
+.footer-list-heading {
+  text-transform: capitalize;
+  font-size: 25px;
+  line-height: 1.2;
+  margin-bottom: 37px;
+}
+
+.footer-links {
+  font-size: 18px;
+  line-height: 1.94;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #544837;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.facebook-icon {
+  fill: #4267b2;
+}
+
+.twitter-icon {
+  fill: #1da1f2;
+}
+
+.instagram-icon {
+  fill: #df0142;
 }
